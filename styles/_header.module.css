@@ -1,0 +1,159 @@
+.MainHeader {
+    /* height: 8%; */
+    width: 100%;
+    /* width: 100vw; */
+    background-color: #4b4c4e;;
+    display: flex;
+    flex-direction: row;
+    padding-left: max(1vw, 17px);
+    padding-right: max(1vw, 17px);
+    align-items: center;
+    justify-content: space-between;
+    min-height: max(10vw, 57px);
+    /* position: sticky; */
+    /* position: absolute;
+    z-index: 10; */
+  }
+  .HeaderLeft {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    color:white;
+  }
+  .HeaderLogo {
+    /* background: #c4c4c4; */
+    /* border: 2px solid #000000; */
+    /* box-sizing: border-box; */
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+  }
+
+  .samsaraIcon {
+    /* background-color: blue; */
+    height: max(6vw, 24.53px);
+    width: max(6vw, 24.53px);
+  }
+  .samsaraText {
+    /* background-color: red; */
+    width: max(20vw, 103px);
+    height: max(2vw, 24.53px);
+    margin-left: max(3vw, 10px);
+  }
+  .HeaderLeftSub {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .HeaderRight {
+    display: flex;
+    align-items: center;
+    /* padding-top: 15px; */
+  }
+  .ButtonDiv {
+    height: max(8vw, 30px);
+    width: max(7vw, 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: max(1vw, 10px);
+  }
+  .BackImg {
+    height: 15px;
+    width: 10px;
+    margin-right: 10px;
+  }
+  .filterIcon {
+    height: max(4vw, 14px);
+    width: max(4vw, 14px);
+  }
+  .gridIcon {
+    height: max(4vw, 14px);
+    width: max(4vw, 14px);
+  }
+  .linearIcon {
+    height: max(5vw, 14px);
+    width: max(2vw, 14px);
+  }
+  .profileIcon {
+    height: max(5vw, 21px);
+    width: max(5vw, 21px);
+  }
+  .VendorNameText {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  .VendorCityText {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9e9e9e;
+    text-transform: capitalize;
+  }
+  .TimeText {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ababab;
+  }
+  .TableNo {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  @media (min-width: 800px) {
+    .MainHeader {
+      min-height: 57px !important;
+      width: 800px !important;
+      padding-left: 17px !important;
+      padding-right: 17px !important;
+    }
+    .ButtonDiv {
+      height: 30px !important;
+      width: 31px !important;
+    }
+    .samsaraIcon {
+      height: 24.53px !important;
+      width: 24.53px !important;
+    }
+    .samsaraText {
+      width: 150px !important;
+      height: 20px !important;
+    }
+    .filterIcon {
+      height: 25px !important;
+      width: 25px !important;
+    }
+    .gridIcon {
+      height: 25px !important;
+      width: 25px !important;
+    }
+    .linearIcon {
+      height: 40px !important;
+      width: 10px !important;
+    }
+    .profileIcon {
+      height: 26px !important;
+      width: 26px !important;
+    }
+  }
+  

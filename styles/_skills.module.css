@@ -1,0 +1,40 @@
+.appDiv {
+    overflow-y: scroll;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width:100vw;
+    background-color: #272727;
+    align-items: center;
+    
+  }
+  .imgSiz{
+padding-top: 10px;
+padding-bottom: 10px;
+
+  }
+  .imgCon{
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+  }
+  .lblDes{
+    font-size: 25px;
+    color: #c5b78e;
+    font-family: Raleway-Regular;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  @media (min-width: 800px) {
+    .appDiv {
+      max-width: 800px !important;
+    }
+  }
+  
