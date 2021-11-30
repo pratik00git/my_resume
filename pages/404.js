@@ -19,7 +19,7 @@ export default function Error  () {
            
               >
         
-                    <div><label>404 (PAGE NOT FOUND)</label></div>
+                    <div><label>404 (PAGE NOT FOUND )</label></div>
                     <div onClick={()=> Router.push("/","/")}><label>Back To Home Page</label></div>
 
              
