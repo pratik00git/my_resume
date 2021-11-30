@@ -1,0 +1,61 @@
+.MainHeader {
+    width: 100%;
+    background-color: #4b4c4e;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: min(8vh, 44px);
+  }
+  .subHeader {
+    /* height: 8%; */
+    width: 100%;
+    min-height: min(7vh, 40px);
+    display: flex;
+    align-items: center;
+    margin-left: max(1vw, 17px);
+    margin-right: max(1vw, 17px);
+    border-bottom: 1px solid #4f4f4f;
+  }
+  .BackImg {
+    width: max(1vh, 4px);
+    height: max(2vh, 8px);
+  }
+  .BackText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5vh, 15px);
+    /* line-height: 12px; */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-left: 2vw;
+  }
+  .titleText {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: min(2.5vh, 15px);
+    /* line-height: 18px; */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+  .headerLeft {
+    display: flex;
+    flex: 1;
+  }
+  .headerRight {
+    display: flex;
+    flex: 1;
+  }
+  @media (min-width: 800px) {
+    .MainHeader {
+      min-height: max(40px, 7vh) !important;
+      width: 800px !important;
+      padding-left: 17px !important;
+      padding-right: 17px !important;
+    }
+  }

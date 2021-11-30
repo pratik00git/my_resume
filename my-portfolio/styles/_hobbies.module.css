@@ -1,0 +1,21 @@
+.appDiv {
+    overflow-y: scroll;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width:100vw;
+    background-color: #272727;
+  }
+  .lblDes{
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    text-align: center;
+    color: #c5b78e;
+    padding-top: 20px;
+}
+@media (min-width: 800px) {
+  .appDiv {
+    max-width: 800px !important;
+  }
+}

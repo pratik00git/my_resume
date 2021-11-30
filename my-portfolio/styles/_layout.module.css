@@ -1,0 +1,794 @@
+.bottomBar {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    height: max(9vh, 50px);
+    width: 100%;
+    background: #4b4c4e;
+    z-index: 10;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+  }
+  .bottomBarTabName {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+    margin-top: 4px;
+  }
+  .bottomIcon {
+    max-height: 22.42px;
+    max-width: 22.42px;
+  }
+  .redDot {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background-color: transparent;
+  }
+  .transparentDot {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background-color: transparent;
+  }
+  .tabContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: space-evenly;
+  }
+  /* Bottom TAB STYLES ENDS*/
+  
+  /* HOMEPAGE STYLES */
+  .sliderItem {
+    /* min-height: calc(100vh - max(10vw, 57px) - max(9vh, 50px)); */
+    /* min-height: 100px; */
+    display: flex;
+    flex: 1;
+    /* height: 100%; */
+    /* height: calc(100vh - max(10vw, 57px) - max(9vh, 50px) - 2px); */
+    width: 100%;
+    background: #1a1b1d;
+    /* margin-bottom: max(19vh, 107px); */
+    /* margin-bottom: 1px; */
+    flex-direction: column;
+  }
+  .sliderContainer {
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px solid red !important;
+    outline: none !important;
+  }
+  .carouselContainer {
+    width: 100%;
+    /* background-color: blue; */
+    height: calc(58.9vh - 56px);
+    /* object-fit: contain; */
+  }
+  .productImageContainer {
+    width: 100%;
+    height: calc(59vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .animatedH {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .divDesign {
+    position: relative;
+    z-index: 1;
+  }
+  .detailsD {
+    border-radius: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 4px;
+    width: 4px;
+  }
+  .animHeight {
+    background-color: red;
+    z-index: 5000;
+    position: absolute;
+    width: 100%;
+  }
+  .viewDetails {
+    min-height: 4.1vh;
+    height: 4.1vh;
+    background-color: #0b2f2c;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .emptyView {
+    min-height: 4.1vh;
+    height: 4.1vh;
+    background-color: #0b2f2c;
+    text-align: center;
+    z-index: 0;
+    /* visibility: hidden; */
+    /* display: none; */
+  }
+  .viewDetailText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: max(12px, 3vw);
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  .dotsDesign {
+    min-height: 3.1vh;
+    /* background-color: pink; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .amoutDevision {
+    min-height: 7.3vh;
+    /* background-color: orange; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+  }
+  .nameSubDevision {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 31px;
+    padding-right: 20px;
+  }
+  .amoutSubDevision {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 31px;
+  }
+  .amoutDevisionTitleText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: max(14px, 3.2vw);
+    /* line-height: 155.6%; */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .amoutDevisionDisText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: max(12px, 3vw);
+    line-height: 155.6%;
+    letter-spacing: 0.03em;
+    color: #a2a2a2;
+  }
+  .consultDivision {
+    min-height: 6.2vh;
+    /* background-color: orange; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 9px;
+    margin-right: 9px;
+    /* border: 2px solid red; */
+  }
+  .stylistButton {
+    /* background-color: green; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555555;
+  }
+  .trailButton {
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555555;
+  }
+  .homeButtonText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: max(12px, 3.1vw);
+    /* line-height: 14px; */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+  .productLikeContainer {
+    position: absolute;
+    width: 31px !important;
+    height: max(18vh, 120px);
+    z-index: 0;
+    bottom: min(30%, 74px);
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .productSimilarContainer {
+    position: absolute;
+    width: 90%;
+    height: 30px;
+    z-index: 0;
+    bottom: 4%;
+    right: 5%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .trialCounterText {
+    font-family: Ramabhadra-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: max(12px, 3.1vw);
+    /* line-height: 14px; */
+    letter-spacing: 0.05em;
+    color: #555555;
+  }
+  .likeIcon {
+    /* position: absolute;
+    top: 243px;
+    right: 21px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .likeCount {
+    padding-top: 0.5vh;
+    color: white;
+    font-family: Avenir-Next;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .heartIcon {
+    /* position: absolute;
+    top: 317px;
+    right: 25px; */
+  }
+  .shareIcon {
+    height: 28px;
+    width: 28px;
+    /* position: absolute; */
+    /* top: 373px;
+    right: 25px; */
+  }
+  .tryOn {
+    /* position: absolute;
+    top: 428px;
+    right: 25px; */
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Raleway-Regular;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+  .similarDesigns {
+    /* position: absolute;
+    top: 428px;
+    left: 30px; */
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Raleway-Regular;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .firstTimeModal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .modalImage {
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+  }
+  .modalItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .modalItem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+  }
+  .buttonStyle {
+    min-width: 95%;
+    min-height: 7vh;
+    background: transparent;
+    font-family: Raleway-Regular;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #ffffff;
+  }
+  .paraStyle {
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 8%;
+  }
+  .gotItButton {
+    min-width: 95%;
+    min-height: 7vh;
+    background: transparent;
+    font-family: Raleway-Regular;
+    font-weight: bold;
+    font-size: 12px;
+    color: #c6b486;
+    border: transparent;
+    background: #0d5953;
+  }
+  .carouselStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .carouselModal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+  }
+  .buttonModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    padding-top: 5%;
+  }
+  .dotsStyle {
+    border-color: #c6b486;
+    border-radius: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 8px;
+    width: 8px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  /* Subscribe page */
+  .labelDesign {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-top: 32px;
+    color: #c5b78e;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .paraDesign {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+    color: #d0d0d0;
+    padding-top: 18px;
+  }
+  .divDes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .divDe1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .divDe2 {
+    width: 45%;
+    min-height: 42px;
+    background-color: #0d5953;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 15px;
+  }
+  .addressInput {
+    width: 90%;
+  
+    border: 0.5px solid #666666;
+    height: 41px;
+    margin-bottom: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: white;
+    border: 1px solid #c5b78e;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+  }
+  .homeTrailText {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #c6b486;
+  }
+  
+  .addressInput::placeholder {
+    color: white;
+  }
+  .communicationCon {
+    display: flex !important;
+    flex-direction: column;
+  
+    background-color: #1a1b1d;
+    justify-content: space-around;
+  }
+  /* Grid Layout */
+  .gridContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .onGridLayout {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+  }
+  .gridColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardDesign {
+    width: 100%;
+    margin-top: 12px;
+    /* border: 1px solid #5c5c5c; */
+    background-color: transparent;
+    border-radius: 0px !important;
+    /* margin-bottom: 20px; */
+  }
+  .onwardsL {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    padding-left: 3%;
+    color: #ffffff;
+  }
+  .labelDesignG {
+    font-family: Ramabhadra-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    padding-left: 10%;
+  
+    color: #ffffff;
+  }
+  .cardBody {
+    padding: 0px 0px !important;
+    border: 1px solid #5c5c5c;
+  }
+  .similarContainer {
+    position: absolute;
+    width: min(100%, 800px);
+    height: 35px;
+    background-color: #1a1b1d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .titleText {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #d9d9d9;
+  }
+  /* HOMEPAGE STYLES ENDS*/
+  @media (min-width: 800px) {
+    .bottomBar {
+      position: absolute;
+      bottom: 0;
+      height: 50px;
+      width: 800px;
+    }
+    .onGridLayout {
+      max-width: 800px;
+    }
+  }
+  @media (max-width: 400px) {
+    .bottomBar {
+      height: max(9vh, 55px);
+    }
+  }
+  @media (min-height: 800px) {
+    .carouselContainer {
+      height: calc(60vh - 56px) !important;
+    }
+    .viewDetails {
+      min-height: 4.5vh !important;
+      height: 4.5vh !important;
+    }
+    .emptyView {
+      min-height: 4.5vh !important;
+      height: 4.5vh !important;
+    }
+    .productImageContainer {
+      width: 100%;
+      height: calc(60vh - 56px);
+    }
+    .dotsDesign {
+      min-height: 3.5vh !important;
+    }
+    .amoutDevision {
+      min-height: 8vh !important;
+    }
+    .consultDivision {
+      min-height: 6.5vh !important;
+    }
+  }
+  @media (min-height: 700px) and (max-height: 800px) {
+    .carouselContainer {
+      height: calc(60vh - 56px);
+    }
+    .viewDetails {
+      min-height: 5vh;
+      height: 5vh;
+    }
+    .emptyView {
+      min-height: 5vh;
+      height: 5vh;
+    }
+    .productImageContainer {
+      width: 100%;
+      height: calc(60vh - 56px);
+    }
+    .dotsDesign {
+      min-height: 4vh;
+    }
+    .amoutDevision {
+      min-height: 8vh;
+    }
+    .consultDivision {
+      min-height: 5.5vh;
+    }
+    .likeIcon {
+      top: 213px;
+      right: 21px;
+    }
+    .heartIcon {
+      top: 287px;
+      right: 25px;
+    }
+    .shareIcon {
+      top: 343px;
+      right: 25px;
+    }
+    .tryOn {
+      top: 398px;
+      right: 25px;
+    }
+    .similarDesigns {
+      top: 398px;
+    }
+  }
+  @media (min-height: 600px) and (max-height: 700px) {
+    .carouselContainer {
+      height: calc(59vh - 56px);
+    }
+    .viewDetails {
+      min-height: 4.4vh;
+      height: 4.4vh;
+    }
+    .emptyView {
+      min-height: 4.4vh;
+      height: 4.4vh;
+    }
+    .productImageContainer {
+      width: 100%;
+      height: calc(60vh - 56px);
+    }
+    .dotsDesign {
+      min-height: 4vh;
+    }
+    .amoutDevision {
+      min-height: 8vh;
+    }
+    .consultDivision {
+      min-height: 5.9vh;
+    }
+    .likeIcon {
+      top: 173px;
+      right: 21px;
+    }
+    .heartIcon {
+      top: 247px;
+      right: 25px;
+    }
+    .shareIcon {
+      top: 293px;
+      right: 25px;
+    }
+    .tryOn {
+      top: 348px;
+      right: 25px;
+    }
+    .similarDesigns {
+      top: 348px;
+    }
+  }
+  @media (min-height: 500px) and (max-height: 600px) {
+    .viewDetails {
+      min-height: 4.4vh;
+      height: 4.4vh;
+    }
+    .likeIcon {
+      top: 153px;
+      right: 21px;
+    }
+    .heartIcon {
+      top: 213px;
+      right: 25px;
+    }
+    .shareIcon {
+      top: 258px;
+      right: 25px;
+    }
+    .tryOn {
+      top: 294px;
+      right: 25px;
+    }
+    .similarDesigns {
+      top: 294px;
+    }
+  }
+  @media (max-height: 500px) {
+    .carouselContainer {
+      height: calc(56vh - 60px);
+    }
+    .viewDetails {
+      min-height: 2.5vh;
+      height: 5vh;
+    }
+    .emptyView {
+      min-height: 2.5vh;
+      height: 5vh;
+    }
+    .productImageContainer {
+      width: 100%;
+      height: calc(56vh - 60px);
+    }
+    .dotsDesign {
+      min-height: 2.5vh;
+    }
+    .amoutDevision {
+      min-height: 6.5vh;
+    }
+    .consultDivision {
+      min-height: 5.5vh;
+    }
+    .likeIcon {
+      top: 103px;
+      right: 21px;
+    }
+    .heartIcon {
+      top: 153px;
+      right: 25px;
+    }
+    .shareIcon {
+      top: 188px;
+      right: 25px;
+    }
+    .tryOn {
+      top: 229px;
+      right: 25px;
+    }
+    .similarDesigns {
+      top: 229px;
+    }
+    /* .likeCount {
+      padding-top: 4px;
+    } */
+  }
+  @media (min-width: 800px) {
+    .sliderContainer {
+      max-width: 800px !important;
+    }
+    .sliderItem {
+      max-width: 800px !important;
+    }
+    .viewDetailText {
+      font-size: 16px !important;
+    }
+  
+    .amoutDevisionTitleText {
+      font-size: 16px !important;
+    }
+    .amoutDevisionDisText {
+      font-size: 16px !important;
+    }
+    .homeButtonText {
+      font-size: 16px !important;
+    }
+    .trialCounterText {
+      font-size: 16px !important;
+    }
+    .trailButton {
+      height: 60px;
+    }
+  }
+  @media (max-height: 600px) {
+    .modalImage {
+      height: 150px;
+      width: 150px;
+    }
+  }

@@ -1,0 +1,18 @@
+.appDiv{
+    overflow-y: scroll;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100vw;
+    background-color: #272727;
+    font-size: 30px;
+    font-family: Raleway-Regular;
+    color:white;
+}
+@media (min-width: 800px) {
+    .appDiv {
+    width:800px;
+    }
+  }
