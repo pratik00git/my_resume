@@ -68,18 +68,13 @@ export const BottomBar = (props) => {
         <a href="mailto:thapratik00@gmail.com" target="_blank"><img src="../images/gmail.png" alt="gmail" width={40} height={40}/></a>
           
         </div>
-        <div>
-        <a href="https://wa.me/9427352211" target="_blank"> <img src="../images/whatsapp.png" alt="whatsapp" width={40} height={40}/></a>
-         
-        </div>
+        <div><a href="http://www.instagram.com/thakkarpratik00" target="_blank" ><img src="../images/instagram.png" alt="insta" width={40} height={40}/></a></div>
+                    <div><a href="http://www.facebook.com/pratik.thakkar.52" target="_blank" ><img src="../images/facebook.png" alt="fb" width={40} height={40}/></a></div> 
         <div>
         <a href="https://linkedin.com/in/pratik-thakkar-203004185" target="_blank">          <img src="../images/linkedin.png" alt="linkedin" width={40} height={40}/></a>
 
         </div>
-        <div>
-        <a href="#"><img src="../images/phone-call.png" alt="call" width={40} height={40}/></a>
-          
-        </div>
+      
       </div>
     </div>
   );

@@ -97,11 +97,11 @@ export default function Profile  () {
                         thapratik00@gmail.com
                       </label>
                     </div>
-                    <div className={styles.info1}>
+                    {/* <div className={styles.info1}>
                      
                      <div><a href="http://www.instagram.com/thakkarpratik00" target="_blank" ><img src="../images/instagram.png" alt="insta" width={50} height={50}/></a></div>
                     <div><a href="http://www.facebook.com/pratik.thakkar.52" target="_blank" ><img src="../images/facebook.png" alt="fb" width={50} height={50}/></a></div> 
-                    </div>
+                    </div> */}
                   
               </div>
             <BottomBar bottomBarRef={bottomBarRef} screenIndex={4} />
